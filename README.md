@@ -65,6 +65,7 @@ Send your friends an invite link to the private server. They only need to join o
    ```
    %appdata%\com.covas-next.ui\plugins\
    ```
+***IMPORTANT: The folder must be named "Discordant" no version numbers - Github automatically adds a -X.x version number to the folder***
 2. Restart COVAS:NEXT
 3. Open the COVAS:NEXT menu → navigate to **Discordant - Discord DM Integration** settings
 4. Paste your bot token into the **Bot Token** field
