@@ -103,6 +103,8 @@ Replies are sent verbatim — COVAS will not paraphrase or add to your message.
 ---
 
 ## Troubleshooting
+**Plugin Fails to load**
+- Double check the name of the folder in your addons folder. It should be "Discordant" nothing else.
 
 **Bot doesn't connect on startup**
 - Check your bot token is correctly pasted in the plugin settings (no extra spaces)
