@@ -1,0 +1,8 @@
+{
+  "guid": "a3f7c921-5e84-4b1d-9c32-7d1e8f4a2b05",
+  "name": "Discordant - Discord DM Integration",
+  "version": "1.0.0",
+  "author": "Covasify",
+  "description": "Real-time Discord DM notifications and replies via COVAS. Hear incoming DMs announced and dictate replies hands-free.",
+  "entrypoint": "Discordant.py"
+}
