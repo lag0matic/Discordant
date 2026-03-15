@@ -35,7 +35,7 @@ This approach was chosen deliberately — it is the only way to receive Discord 
    - **Presence Intent**
    - **Server Members Intent**
    - **Message Content Intent**
-6. Click **Reset Token** → copy and save your bot token somewhere safe  
+6. Click **Reset Token** → copy and save your bot token somewhere safe
    *(You'll only see it once — if you lose it, you'll need to reset it again)*
 
 ### Step 2 — Set a Profile Picture (Optional but Recommended)
@@ -61,15 +61,19 @@ Send your friends an invite link to the private server. They only need to join o
 
 ### Step 5 — Install the Plugin
 
-1. Place the `Discordant` folder in:
+> ⚠️ **GitHub extraction note:** When downloading a release from GitHub, the zip file will extract to a folder named something like `Discordant-v1.0.0`. You must rename this folder to just `Discordant` before placing it in your plugins directory, otherwise COVAS:NEXT may not load it correctly.
+
+1. Download the latest release and extract it
+2. Rename the folder to `Discordant` (strip the version suffix)
+3. Place the `Discordant` folder in:
    ```
    %appdata%\com.covas-next.ui\plugins\
    ```
-***IMPORTANT: The folder must be named "Discordant" no version numbers - Github automatically adds a -X.x version number to the folder***
-2. Restart COVAS:NEXT
-3. Open the COVAS:NEXT menu → navigate to **Discordant - Discord DM Integration** settings
-4. Paste your bot token into the **Bot Token** field
-5. Start your COVAS chat session — the bot will connect automatically
+4. Dependencies are bundled — no installation step needed
+5. Restart COVAS:NEXT
+6. Open the COVAS:NEXT menu → navigate to **Discordant - Discord DM Integration** settings
+7. Paste your bot token into the **Bot Token** field
+8. Start your COVAS chat session — the bot will connect automatically
 
 ---
 
@@ -103,8 +107,6 @@ Replies are sent verbatim — COVAS will not paraphrase or add to your message.
 ---
 
 ## Troubleshooting
-**Plugin Fails to load**
-- Double check the name of the folder in your addons folder. It should be "Discordant" nothing else.
 
 **Bot doesn't connect on startup**
 - Check your bot token is correctly pasted in the plugin settings (no extra spaces)
@@ -134,7 +136,7 @@ Replies are sent verbatim — COVAS will not paraphrase or add to your message.
 Discordant/
   Discordant.py        # Main plugin
   manifest.json        # Plugin metadata
-  deps/                # Bundled Python dependencies (discord.py + deps)
+  deps/                # Bundled Python dependencies
 ```
 
 ---
@@ -147,6 +149,6 @@ Discordant/
 
 ## Credits
 
-**Author**: Lag0matic  
-**COVAS:NEXT**: https://ratherrude.github.io/Elite-Dangerous-AI-Integration/  
+**Author**: Lag0matic
+**COVAS:NEXT**: https://ratherrude.github.io/Elite-Dangerous-AI-Integration/
 **Discord API**: discord.py library
